@@ -1,0 +1,350 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/zteplez/video-game-rec-ontology" ],
+    "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+    "version" : "v2.0",
+    "labels" : {
+      "undefined" : "Video Game Ontology"
+    },
+    "comments" : {
+      "undefined" : "A domain ontology for video game recommendations."
+    },
+    "other" : {
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "v2.0",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "0",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "17",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "13",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#EnemyCharacter",
+    "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EnemyCharacter"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#Zombie",
+      "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+      "labels" : {
+        "IRI-based" : "Zombie"
+      }
+    } ],
+    "id" : "5",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#PlayerCharacter",
+    "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PlayerCharacter"
+    },
+    "id" : "2",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#Genre",
+    "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Genre"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#Horror",
+      "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+      "labels" : {
+        "IRI-based" : "Horror"
+      }
+    } ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#MultiplayerGame",
+    "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MultiplayerGame"
+    },
+    "id" : "7",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#Character",
+    "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Character"
+    },
+    "subClasses" : [ "2", "5" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#Game",
+    "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://dbpedia.org/ontology/VideoGame",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Game"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#Silent_Hill",
+      "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+      "labels" : {
+        "IRI-based" : "Silent_Hill"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#Resident_Evil",
+      "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+      "labels" : {
+        "IRI-based" : "Resident_Evil"
+      }
+    } ],
+    "subClasses" : [ "7", "10" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#Platform",
+    "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Platform"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#PC",
+      "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+      "labels" : {
+        "IRI-based" : "PC"
+      }
+    } ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#SinglePlayerGame",
+    "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SinglePlayerGame"
+    },
+    "id" : "10",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#Weapon",
+    "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Weapon"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#Pistol",
+      "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+      "labels" : {
+        "IRI-based" : "Pistol"
+      }
+    } ],
+    "id" : "22"
+  } ],
+  "property" : [ {
+    "id" : "1",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "4",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "3",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "1"
+  }, {
+    "range" : "3",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "4"
+  }, {
+    "range" : "8",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "6"
+  }, {
+    "range" : "8",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasEnemyCharacter",
+    "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasEnemyCharacter"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasReleaseYear",
+    "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "hasReleaseYear"
+    },
+    "domain" : "0",
+    "attributes" : [ "datatype" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasGenre",
+    "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasGenre"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "0",
+    "subproperty" : [ "14" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#availableOn",
+    "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "availableOn"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasPlayerCharacter",
+    "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasPlayerCharacter"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#canUseWeapon",
+    "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "canUseWeapon"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasRating",
+    "baseIri" : "http://www.semanticweb.org/zteplez/video-game-rec-ontology",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "hasRating"
+    },
+    "domain" : "0",
+    "attributes" : [ "datatype" ],
+    "id" : "23"
+  } ]
+}

@@ -1,0 +1,516 @@
+@prefix ex: <http://www.semanticweb.org/zteplez/video-game-rec-ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Apex_Legends a ex:Game ;
+    ex:availableOn ex:Nintendo_Switch,
+        ex:PC,
+        ex:PlayStation_4,
+        ex:Xbox_One,
+        ex:macOS ;
+    ex:hasGenre ex:Action,
+        ex:Shooter ;
+    ex:hasRating "3.63"^^xsd:float ;
+    ex:hasReleaseYear 2019 .
+
+ex:Batman%3A_Arkham_Knight a ex:Game ;
+    ex:availableOn ex:Nintendo_Switch,
+        ex:PC,
+        ex:PlayStation_4,
+        ex:Xbox_One ;
+    ex:hasGenre ex:Action ;
+    ex:hasRating "4.24"^^xsd:float ;
+    ex:hasReleaseYear 2015 .
+
+ex:BioShock a ex:Game ;
+    ex:availableOn ex:PC,
+        ex:PlayStation_3,
+        ex:Xbox_360,
+        ex:macOS ;
+    ex:hasGenre ex:Action,
+        ex:Shooter ;
+    ex:hasRating "4.36"^^xsd:float ;
+    ex:hasReleaseYear 2007 .
+
+ex:BioShock_Infinite a ex:Game ;
+    ex:availableOn ex:Linux,
+        ex:Nintendo_Switch,
+        ex:PC,
+        ex:PlayStation_3,
+        ex:PlayStation_4,
+        ex:Xbox_360,
+        ex:Xbox_One ;
+    ex:hasGenre ex:Action,
+        ex:Shooter ;
+    ex:hasRating "4.38"^^xsd:float ;
+    ex:hasReleaseYear 2013 .
+
+ex:Borderlands_2 a ex:Game ;
+    ex:availableOn ex:Android,
+        ex:Linux,
+        ex:PC,
+        ex:PS_Vita,
+        ex:PlayStation_3,
+        ex:Xbox_360,
+        ex:macOS ;
+    ex:hasGenre ex:Action,
+        ex:RPG,
+        ex:Shooter ;
+    ex:hasRating "4.01"^^xsd:float ;
+    ex:hasReleaseYear 2012 .
+
+ex:Counter-Strike%3A_Global_Offensive a ex:Game ;
+    ex:availableOn ex:Linux,
+        ex:PC,
+        ex:PlayStation_3,
+        ex:Xbox_360 ;
+    ex:hasGenre ex:Shooter ;
+    ex:hasRating "3.57"^^xsd:float ;
+    ex:hasReleaseYear 2012 .
+
+ex:Cyberpunk_2077 a ex:Game ;
+    ex:availableOn ex:Nintendo_Switch,
+        ex:PC,
+        ex:PlayStation_4,
+        ex:PlayStation_5,
+        ex:Xbox_One,
+        <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Xbox_Series_S/X> ;
+    ex:hasGenre ex:Action,
+        ex:RPG,
+        ex:Shooter ;
+    ex:hasRating "4.23"^^xsd:float ;
+    ex:hasReleaseYear 2020 .
+
+ex:DOOM_%282016%29 a ex:Game ;
+    ex:availableOn ex:Nintendo_Switch,
+        ex:PC,
+        ex:PlayStation_4,
+        ex:Xbox_One ;
+    ex:hasGenre ex:Action,
+        ex:Shooter ;
+    ex:hasRating "4.38"^^xsd:float ;
+    ex:hasReleaseYear 2016 .
+
+ex:Destiny_2 a ex:Game ;
+    ex:availableOn ex:PC,
+        ex:PlayStation_4,
+        ex:PlayStation_5,
+        ex:Web,
+        ex:Xbox_One,
+        <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Xbox_Series_S/X> ;
+    ex:hasGenre ex:Action,
+        ex:Shooter ;
+    ex:hasRating "3.52"^^xsd:float ;
+    ex:hasReleaseYear 2017 .
+
+ex:Dota_2 a ex:Game ;
+    ex:availableOn ex:Linux,
+        ex:PC,
+        ex:macOS ;
+    ex:hasGenre ex:Action,
+        ex:Massively_Multiplayer ;
+    ex:hasRating "3.07"^^xsd:float ;
+    ex:hasReleaseYear 2013 .
+
+ex:Fallout_4 a ex:Game ;
+    ex:availableOn ex:PC,
+        ex:PlayStation_4,
+        ex:PlayStation_5,
+        ex:Xbox_One ;
+    ex:hasGenre ex:Action,
+        ex:RPG ;
+    ex:hasRating "3.81"^^xsd:float ;
+    ex:hasReleaseYear 2015 .
+
+ex:God_of_War_%282018%29 a ex:Game ;
+    ex:availableOn ex:PC,
+        ex:PlayStation_4 ;
+    ex:hasGenre ex:Action ;
+    ex:hasRating "4.54"^^xsd:float ;
+    ex:hasReleaseYear 2018 .
+
+ex:Grand_Theft_Auto%3A_San_Andreas a ex:Game ;
+    ex:availableOn ex:Android,
+        ex:PC,
+        ex:PlayStation_2,
+        ex:PlayStation_3,
+        ex:PlayStation_4,
+        ex:Xbox,
+        ex:Xbox_360,
+        ex:Xbox_One,
+        ex:iOS,
+        ex:macOS ;
+    ex:hasGenre ex:Action ;
+    ex:hasRating "4.5"^^xsd:float ;
+    ex:hasReleaseYear 2004 .
+
+ex:Grand_Theft_Auto_IV a ex:Game ;
+    ex:availableOn ex:PC,
+        ex:PlayStation_3,
+        ex:Xbox_360,
+        ex:Xbox_One ;
+    ex:hasGenre ex:Action,
+        ex:Adventure ;
+    ex:hasRating "4.26"^^xsd:float ;
+    ex:hasReleaseYear 2008 .
+
+ex:Grand_Theft_Auto_V a ex:Game ;
+    ex:availableOn ex:PC,
+        ex:PlayStation_3,
+        ex:PlayStation_4,
+        ex:PlayStation_5,
+        ex:Xbox_360,
+        ex:Xbox_One,
+        <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Xbox_Series_S/X> ;
+    ex:hasGenre ex:Action ;
+    ex:hasRating "4.47"^^xsd:float ;
+    ex:hasReleaseYear 2013 .
+
+ex:Half-Life_2 a ex:Game ;
+    ex:availableOn ex:Android,
+        ex:Linux,
+        ex:PC,
+        ex:Xbox,
+        ex:Xbox_360,
+        ex:macOS ;
+    ex:hasGenre ex:Action,
+        ex:Shooter ;
+    ex:hasRating "4.48"^^xsd:float ;
+    ex:hasReleaseYear 2004 .
+
+ex:Half-Life_2%3A_Lost_Coast a ex:Game ;
+    ex:availableOn ex:Linux,
+        ex:PC,
+        ex:macOS ;
+    ex:hasGenre ex:Action ;
+    ex:hasRating "3.45"^^xsd:float ;
+    ex:hasReleaseYear 2005 .
+
+ex:Hollow_Knight a ex:Game ;
+    ex:availableOn ex:Linux,
+        ex:Nintendo_Switch,
+        ex:PC,
+        ex:PlayStation_4,
+        ex:Xbox_One,
+        ex:macOS ;
+    ex:hasGenre ex:Action,
+        ex:Indie,
+        ex:Platformer ;
+    ex:hasRating "4.4"^^xsd:float ;
+    ex:hasReleaseYear 2017 .
+
+ex:Horizon_Zero_Dawn a ex:Game ;
+    ex:availableOn ex:PC,
+        ex:PlayStation_4 ;
+    ex:hasGenre ex:Action,
+        ex:RPG ;
+    ex:hasRating "4.27"^^xsd:float ;
+    ex:hasReleaseYear 2017 .
+
+ex:Left_4_Dead_2 a ex:Game ;
+    ex:availableOn ex:Linux,
+        ex:PC,
+        ex:Xbox_360,
+        ex:macOS ;
+    ex:hasGenre ex:Action,
+        ex:Shooter ;
+    ex:hasRating "4.1"^^xsd:float ;
+    ex:hasReleaseYear 2009 .
+
+ex:Life_is_Strange a ex:Game ;
+    ex:availableOn ex:Android,
+        ex:Linux,
+        ex:PC,
+        ex:PlayStation_3,
+        ex:PlayStation_4,
+        ex:Xbox_360,
+        ex:Xbox_One,
+        ex:iOS,
+        ex:macOS ;
+    ex:hasGenre ex:Adventure ;
+    ex:hasRating "4.12"^^xsd:float ;
+    ex:hasReleaseYear 2015 .
+
+ex:Limbo a ex:Game ;
+    ex:availableOn ex:Android,
+        ex:Linux,
+        ex:Nintendo_Switch,
+        ex:PC,
+        ex:PS_Vita,
+        ex:PlayStation_3,
+        ex:PlayStation_4,
+        ex:Xbox_360,
+        ex:Xbox_One,
+        ex:iOS,
+        ex:macOS ;
+    ex:hasGenre ex:Action,
+        ex:Adventure,
+        ex:Indie,
+        ex:Platformer,
+        ex:Puzzle ;
+    ex:hasRating "4.14"^^xsd:float ;
+    ex:hasReleaseYear 2010 .
+
+ex:Metal_Gear_Solid_V%3A_The_Phantom_Pain a ex:Game ;
+    ex:availableOn ex:PC,
+        ex:PlayStation_3,
+        ex:PlayStation_4,
+        ex:Xbox_360,
+        ex:Xbox_One ;
+    ex:hasGenre ex:Action,
+        ex:Shooter ;
+    ex:hasRating "4.16"^^xsd:float ;
+    ex:hasReleaseYear 2015 .
+
+ex:Metro_2033 a ex:Game ;
+    ex:availableOn ex:PC,
+        ex:Xbox_360 ;
+    ex:hasGenre ex:Action,
+        ex:Shooter ;
+    ex:hasRating "3.94"^^xsd:float ;
+    ex:hasReleaseYear 2010 .
+
+ex:Middle-earth%3A_Shadow_of_Mordor a ex:Game ;
+    ex:availableOn ex:Linux,
+        ex:PC,
+        ex:PlayStation_3,
+        ex:PlayStation_4,
+        ex:Xbox_360,
+        ex:Xbox_One,
+        ex:macOS ;
+    ex:hasGenre ex:Action,
+        ex:RPG ;
+    ex:hasRating "3.91"^^xsd:float ;
+    ex:hasReleaseYear 2014 .
+
+ex:PAYDAY_2 a ex:Game ;
+    ex:availableOn ex:Linux,
+        ex:PC,
+        ex:Xbox_One ;
+    ex:hasGenre ex:Action,
+        ex:Shooter ;
+    ex:hasRating "3.52"^^xsd:float ;
+    ex:hasReleaseYear 2013 .
+
+ex:Portal a ex:Game ;
+    ex:availableOn ex:Android,
+        ex:Linux,
+        ex:Nintendo_Switch,
+        ex:PC,
+        ex:PlayStation_3,
+        ex:Xbox_360,
+        ex:macOS ;
+    ex:hasGenre ex:Action,
+        ex:Puzzle ;
+    ex:hasRating "4.49"^^xsd:float ;
+    ex:hasReleaseYear 2007 .
+
+ex:Portal_2 a ex:Game ;
+    ex:availableOn ex:Linux,
+        ex:PC,
+        ex:PlayStation_3,
+        ex:Xbox_360,
+        ex:Xbox_One,
+        ex:macOS ;
+    ex:hasGenre ex:Puzzle,
+        ex:Shooter ;
+    ex:hasRating "4.58"^^xsd:float ;
+    ex:hasReleaseYear 2011 .
+
+ex:Red_Dead_Redemption_2 a ex:Game ;
+    ex:availableOn ex:PC,
+        ex:PlayStation_4,
+        ex:Xbox_One ;
+    ex:hasGenre ex:Action ;
+    ex:hasRating "4.59"^^xsd:float ;
+    ex:hasReleaseYear 2018 .
+
+ex:Rise_of_the_Tomb_Raider a ex:Game ;
+    ex:availableOn ex:PC,
+        ex:PlayStation_4,
+        ex:Xbox_One,
+        ex:macOS ;
+    ex:hasGenre ex:Action ;
+    ex:hasRating "4.04"^^xsd:float ;
+    ex:hasReleaseYear 2015 .
+
+ex:Rocket_League a ex:Game ;
+    ex:availableOn ex:Linux,
+        ex:Nintendo_Switch,
+        ex:PC,
+        ex:PlayStation_4,
+        ex:Xbox_One,
+        ex:macOS ;
+    ex:hasGenre ex:Indie,
+        ex:Racing,
+        ex:Sports ;
+    ex:hasRating "3.93"^^xsd:float ;
+    ex:hasReleaseYear 2015 .
+
+ex:Team_Fortress_2 a ex:Game ;
+    ex:availableOn ex:Linux,
+        ex:PC,
+        ex:macOS ;
+    ex:hasGenre ex:Action,
+        ex:Shooter ;
+    ex:hasRating "3.68"^^xsd:float ;
+    ex:hasReleaseYear 2007 .
+
+ex:Terraria a ex:Game ;
+    ex:availableOn ex:Android,
+        ex:Linux,
+        ex:Nintendo_3DS,
+        ex:Nintendo_Switch,
+        ex:PC,
+        ex:PS_Vita,
+        ex:PlayStation_3,
+        ex:PlayStation_4,
+        ex:Wii_U,
+        ex:Xbox_360,
+        ex:Xbox_One,
+        ex:iOS,
+        ex:macOS ;
+    ex:hasGenre ex:Action,
+        ex:Indie,
+        ex:Platformer ;
+    ex:hasRating "4.07"^^xsd:float ;
+    ex:hasReleaseYear 2011 .
+
+ex:The_Elder_Scrolls_V%3A_Skyrim a ex:Game ;
+    ex:availableOn ex:Nintendo_Switch,
+        ex:PC,
+        ex:PlayStation_3,
+        ex:PlayStation_4,
+        ex:PlayStation_5,
+        ex:Xbox_360,
+        ex:Xbox_One,
+        <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Xbox_Series_S/X> ;
+    ex:hasGenre ex:Action,
+        ex:RPG ;
+    ex:hasRating "4.42"^^xsd:float ;
+    ex:hasReleaseYear 2011 .
+
+ex:The_Walking_Dead%3A_Season_1 a ex:Game ;
+    ex:availableOn ex:Android,
+        ex:Nintendo_Switch,
+        ex:PC,
+        ex:PS_Vita,
+        ex:PlayStation_3,
+        ex:PlayStation_4,
+        ex:Xbox_360,
+        ex:Xbox_One,
+        ex:iOS,
+        ex:macOS ;
+    ex:hasGenre ex:Action,
+        ex:Adventure ;
+    ex:hasRating "4.36"^^xsd:float ;
+    ex:hasReleaseYear 2012 .
+
+ex:The_Witcher%3A_Enhanced_Edition_Director%27s_Cut a ex:Game ;
+    ex:availableOn ex:PC,
+        ex:macOS ;
+    ex:hasGenre ex:Action,
+        ex:RPG ;
+    ex:hasRating "4.06"^^xsd:float ;
+    ex:hasReleaseYear 2008 .
+
+ex:The_Witcher_2%3A_Assassins_of_Kings_Enhanced_Edition a ex:Game ;
+    ex:availableOn ex:PC,
+        ex:Xbox_360,
+        ex:macOS ;
+    ex:hasGenre ex:RPG ;
+    ex:hasRating "4.17"^^xsd:float ;
+    ex:hasReleaseYear 2012 .
+
+ex:The_Witcher_3%3A_Wild_Hunt a ex:Game ;
+    ex:availableOn ex:Nintendo_Switch,
+        ex:PC,
+        ex:PlayStation_4,
+        ex:PlayStation_5,
+        ex:Xbox_One,
+        <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Xbox_Series_S/X>,
+        ex:macOS ;
+    ex:hasGenre ex:Action,
+        ex:RPG ;
+    ex:hasRating "4.64"^^xsd:float ;
+    ex:hasReleaseYear 2015 .
+
+ex:Tomb_Raider a ex:Game ;
+    ex:availableOn ex:PC,
+        ex:PlayStation_3,
+        ex:Xbox_360,
+        ex:macOS ;
+    ex:hasGenre ex:Action ;
+    ex:hasRating "4.06"^^xsd:float ;
+    ex:hasReleaseYear 2013 .
+
+ex:Warframe a ex:Game ;
+    ex:availableOn ex:Nintendo_Switch,
+        ex:PC,
+        ex:PlayStation_4,
+        ex:PlayStation_5,
+        ex:Xbox_One,
+        <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Xbox_Series_S/X>,
+        ex:iOS ;
+    ex:hasGenre ex:Action,
+        ex:Massively_Multiplayer,
+        ex:RPG,
+        ex:Shooter ;
+    ex:hasRating "3.42"^^xsd:float ;
+    ex:hasReleaseYear 2013 .
+
+ex:Nintendo_3DS a ex:Platform .
+
+ex:PlayStation_2 a ex:Platform .
+
+ex:Racing a ex:Genre .
+
+ex:Sports a ex:Genre .
+
+ex:Web a ex:Platform .
+
+ex:Wii_U a ex:Platform .
+
+ex:Massively_Multiplayer a ex:Genre .
+
+ex:Xbox a ex:Platform .
+
+ex:Platformer a ex:Genre .
+
+ex:Puzzle a ex:Genre .
+
+ex:Adventure a ex:Genre .
+
+ex:Indie a ex:Genre .
+
+ex:PS_Vita a ex:Platform .
+
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#Xbox_Series_S/X> a ex:Platform .
+
+ex:iOS a ex:Platform .
+
+ex:PlayStation_5 a ex:Platform .
+
+ex:Android a ex:Platform .
+
+ex:RPG a ex:Genre .
+
+ex:Nintendo_Switch a ex:Platform .
+
+ex:Shooter a ex:Genre .
+
+ex:Linux a ex:Platform .
+
+ex:PlayStation_3 a ex:Platform .
+
+ex:Xbox_360 a ex:Platform .
+
+ex:macOS a ex:Platform .
+
+ex:PlayStation_4 a ex:Platform .
+
+ex:Xbox_One a ex:Platform .
+
+ex:Action a ex:Genre .
+
+ex:PC a ex:Platform .
+

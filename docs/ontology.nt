@@ -1,0 +1,135 @@
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.semanticweb.org/zteplez/video-game-rec-ontology/2.0> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "A domain ontology for video game recommendations." .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Video Game Ontology" .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology> <http://www.w3.org/2002/07/owl#versionInfo> "v2.0" .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#availableOn
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#availableOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#availableOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Game> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#availableOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Platform> .
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#canUseWeapon
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#canUseWeapon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#canUseWeapon> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Game> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#canUseWeapon> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Weapon> .
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasEnemyCharacter
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasEnemyCharacter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasEnemyCharacter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Game> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasEnemyCharacter> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#EnemyCharacter> .
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasGenre
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasGenre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasGenre> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasGenre> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Game> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasGenre> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Genre> .
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasPlayerCharacter
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasPlayerCharacter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasPlayerCharacter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Game> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasPlayerCharacter> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#PlayerCharacter> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasRating
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasReleaseYear
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasReleaseYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasReleaseYear> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#Character
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#Character> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#EnemyCharacter
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#EnemyCharacter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#EnemyCharacter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Character> .
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#Game
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#Game> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#Game> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/ontology/VideoGame> .
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#Genre
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#Genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#MultiplayerGame
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#MultiplayerGame> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#MultiplayerGame> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Game> .
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#Platform
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#Platform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#PlayerCharacter
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#PlayerCharacter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#PlayerCharacter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Character> .
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#SinglePlayerGame
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#SinglePlayerGame> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#SinglePlayerGame> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Game> .
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#Weapon
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#Weapon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#Horror
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#Horror> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#Horror> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Genre> .
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#PC
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Platform> .
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#Pistol
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#Pistol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#Pistol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Weapon> .
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#Resident_Evil
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#Resident_Evil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#Resident_Evil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Game> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#Resident_Evil> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#availableOn> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#PC> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#Resident_Evil> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasEnemyCharacter> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Zombie> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#Resident_Evil> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#hasGenre> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Horror> .
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#Silent_Hill
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#Silent_Hill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#Silent_Hill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#Game> .
+# 
+# http://www.semanticweb.org/zteplez/video-game-rec-ontology#Zombie
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#Zombie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/zteplez/video-game-rec-ontology#Zombie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/zteplez/video-game-rec-ontology#EnemyCharacter> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
