@@ -1,3 +1,56 @@
+# Video Game Recommendation Chatbot Ontology
+
+## Project Objective
+The main objective of this project is to develop a conversational video game recommendation chatbot underpinned by a robust semantic knowledge graph. Using the METHONTOLOGY framework, this project models core gaming entities (Games, Genres, Platforms) to facilitate highly specific, semantic-driven recommendations. The system integrates automated data acquisition and explores Large Language Models (LLMs) for dynamic ontology population.
+
+## Dataset Sources
+Data populating the knowledge graph was obtained via the public RESTful API provided by **RAWG (Video Games Database API)**. A target batch of high-ranking titles was extracted, preprocessed, and formatted as JSON before being mapped to the OWL schema.
+
+## Installation and Setup Instructions
+To reproduce the knowledge graph construction, validation, and querying processes locally, follow these steps:
+
+1. **Clone the repository:**
+```bash
+   git clone https://github.com/zteplez/video-game-rec-ontology.git
+   cd video-game-rec-ontology
+```
+
+2. Install required dependencies:
+```
+   pip install rdflib pyshacl
+```
+
+3. Run the pipeline scripts in order:
+
+python build_kg.py -> Constructs the RDF/Turtle Knowledge Graph from JSON data.
+
+python query_kg.py -> Executes predefined SPARQL competency questions.
+
+python validate_shacl.py -> Validates the graph constraints using SHACL.
+
+python llm_integration_demo.py -> Simulates the LLM extraction pipeline.
+
+Repository Structure
+/docs : WIDOCO-generated HTML ontology documentation and WebVOWL visualizations.
+
+video-game-ontology.rdf : The core OWL/RDF conceptual model developed in Protégé.
+
+video_games_kg.ttl : The populated Knowledge Graph in Turtle format.
+
+processed_games.json : The raw dataset extracted from the RAWG API.
+
+build_kg.py : Script for RDFlib knowledge graph construction.
+
+query_kg.py : Script containing executable SPARQL queries.
+
+validate_shacl.py : Script for SHACL data quality validation.
+
+llm_integration_demo.py : Demonstration of LLM prompt engineering for ontology population.
+
+Team Members
+İbrahim As (220316083) - Computer Engineering
+
+
 About Widoco output
 ===================
 The purpose of Widoco is to reuse and integrate existing tools for documentation, plus the set of features listed below:
